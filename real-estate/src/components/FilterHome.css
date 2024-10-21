@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ .toggle-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
+  color: #4379F2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn .icon {
+  font-size: 16px;
+}
+
+/* property css */
+.property-type {
+  width: 200px;
+  height: 34px;
+  border-radius: 8px;
+  outline: none;
+  padding: 0 10px;
+}
+
+.property-sale-box {
+  padding: 0 10px;
+}
+
+.prop-tab ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+
+}
+.prop-tab {
+  margin-top: 15px;
+}
+
+.experience {
+  margin-top: 15px;
+  width: 1100px;
+}
+
+.prop-para {
+  padding: 5px 10px;
+  text-align: start;
+}
+
+.prop-hyd {
+  padding: 5px 10px;
+}
+
+
+/* right content css */
+.prop-result {
+  display: block;
+  display: flex;
+}
+
+
+.right {
+  /* height: 300px; */
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.span-prop {
+  color: red;
+}
+
+.right-prop {
+  background: rgb(244, 244, 206);
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.btn {
+  background: #B8001F;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #fff;
+  /* margin-top: 20px; */
+}
+
+.right-para {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .right-para {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .right {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .right-para {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+
+/* right banner  */
+.right-banner-text {
+  display: flex;
+}
+
+.right-banner {
+  height: 280px;
+  line-height: 40px;
+  width: 300px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.right-banner a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.btn2 {
+  padding: 8px 16px;
+  background-color: #570857;
+  border: none;
+  border-radius: 4px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.banner-info {
+  margin-top: 20px;
+}
+
+/* Properties details css */
+.prop-list {
+  display: flex;
+}
+
+.pro-price {
+  color: red;
+  font: 600;
+  float: right;
+}
+
+.right-heading {
+  margin-top: 20px;
+}
+
+.container {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.right-container {
+  margin-left: 50px;
+}
+
+.fav-icon {
+  float: right;
+  font-size: 25px;
+}
+
+/* form details */
+.form-prop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+}
+
+.contact-details {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.property-name p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.agent-btn {
+  padding: 10px 15px;
+  border: 1px solid #570857;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ph-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #570857;
+  color: white;
+  cursor: pointer;
+}
+
+.agent-icon,
+.phone-icon {
+  margin-right: 8px;
+}
+
+
+
+/* Contact Agent section */
+.contact-agent p {
+  margin: 0;
+  font-weight: bold;
+  color: #555;
+  font-size: 16px;
+}
+
+.close-btn {
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid red;
+  background: transparent;
+}
+.close-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+
+/* Form fields */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.code-dropdown {
+  width: 20%;
+  outline: none;
+  border: 1px solid gray;
+
+}
+
+
+
+/* Real Estate Question */
+.real-estate-question {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.real-estate-question p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.real-estate-question label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.real-estate-question input {
+  margin-right: 5px;
+}
+
+/* Contact Details */
+.contact-agent p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-type {
+  margin: 10px 0;
+}
+
+.modal-body input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+
+
+.real-estate-question {
+  margin-bottom: 15px;
+}
+
+.real-estate-question p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.real-estate-question label {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+
+
+
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #570857;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #ff00ff;
+}
+
+/* Contact Buttons */
+.contact-details {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.agent-btn,
+.ph-btn {
+  background-color: #570857;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.agent-btn:hover,
+.ph-btn:hover {
+  background-color: #ff00ff;
+}
+
+.agent-icon,
+.phone-icon {
+  font-size: 16px;
+}
+
+/* /* -------------------saguna property css ------------ * */
+
+.saguna-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.name-type,
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.agreement {
+  display: block;
+  margin: 10px 0;
+
+}
+
+.mobile-input {
+  display: flex;
+  outline: none;
+}
+
+.mobileInput {
+  outline: none;
+}
+.nav-btn {
+  background-color: white;
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+}

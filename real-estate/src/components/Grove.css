@@ -1,0 +1,250 @@
+/* General Styles */
+.grove-banner {
+    align-items: center;
+    cursor: pointer; /* This makes the grove-banner clickable */
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grove-banner:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .grove-inform {
+    line-height: 50px;
+  }
+  
+  .grove-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    /* margin-right: 15px; */
+  }
+  
+  .grove-head {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+  
+  .grove-icon {
+    margin-right: 6px;
+  }
+  
+  .grove-p {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none; /* Hide the modal by default */
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    z-index: 1000; /* Ensure the modal stays above other content */
+  }
+  
+  .modal-overlay.active {
+    display: flex; /* Show the modal when active */
+  }
+  
+  .grove-modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    max-height: 80vh; /* Limit the height of the modal */
+    overflow-y: auto; /* Enable scrolling if content exceeds the modal height */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Property Header */
+  .property-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .property-header p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Image Gallery */
+  .image-gallery {
+    margin: 20px 0;
+  }
+  
+  .image-gallery img {
+    width: 400px;
+    height: 300px;
+   margin-left: 280px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .image-gallery p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Slider */
+  .slider-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-content {
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .arrow-right {
+    right: 10px;
+  }
+  
+  /* Overview Section */
+  .overview {
+    margin-top: 20px;
+  }
+  
+  .overview h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .overview p {
+    line-height: 1.6;
+  }
+  
+  /* Contact Form */
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .form input,
+  .form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    background-color: #570857;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff00ff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .grove-banner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .grove-img {
+      margin-bottom: 10px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .grove-modal-content {
+      width: 90%;
+    }
+  
+    .slider-image {
+      width: 95%;
+      height: auto;
+    }
+  
+    .close-button {
+      top: 5px;
+      right: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .property-header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .overview h3, .form h3 {
+      font-size: 1.2rem;
+    }
+  
+    .submit-button {
+      font-size: 0.9rem;
+    }
+  
+    .slider-image {
+      width: 90%;
+    }
+  }
+  

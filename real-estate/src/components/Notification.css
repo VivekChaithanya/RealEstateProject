@@ -1,0 +1,28 @@
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .notification-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  .delete-button {
+    background-color: #ca70d6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #761476;
+  }
+  

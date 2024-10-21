@@ -1,0 +1,62 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #b571b5;
+}
+  
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+  
+.details-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.user-list, .seller-list, .agent-list {
+  width: 30%;
+}
+  
+.user-list ul, .seller-list ul, .agent-list ul {
+  list-style: none;
+  padding: 0;
+}
+  
+.user-list li, .seller-list li, .agent-list li {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+  
+.properties {
+  display: flex;
+  gap: 10px;
+}
+  
+.property img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+  
+.seller-details,.user-details,.agent-details button{
+  background-color: red;
+  color: rgb(188, 104, 185);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+.seller-details,.user-details,.agent-details button:hover {
+  background-color: rgb(81, 24, 74);
+  color: #fff;
+}
+  

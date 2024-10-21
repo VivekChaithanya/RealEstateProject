@@ -1,0 +1,107 @@
+#post-property{
+    padding: 20px;
+    background-image: url("https://img.freepik.com/premium-photo/white-minimalist-cityscape-model_123891-35347.jpg?size=626&ext=jpg&ga=GA1.1.1314780943.1728604800&semt=ais_hybrid-rr-similar");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#post-property div{
+    padding: 5px;
+    cursor: pointer;
+}
+#post-property div span{
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: larger;
+    color: #2a3d63;
+    background-color: rgb(204, 161, 223);
+    border-radius: 10px;
+}
+.saleprprty-details{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    width:fit-content;
+    backdrop-filter: blur(10px);
+    background-color: rgb(208, 145, 218,0.2);
+}
+.saleprprty-details h4{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.saleprprty-details form{
+    padding: 10px;
+}
+.sellerpost tr td label{
+    color: rgb(24, 23, 23);
+}
+.sellerpost tr td input{
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 500px;
+    padding: 5px;
+    border-bottom:2px solid #1d3159;
+} 
+#facing{
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.saleprprty-details button{
+    position: relative;
+    left: 45%;
+    background-color:rgba(157, 57, 194);
+    width: 100px;
+    padding: 5px;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+} 
+.rentprprty-details{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    width:fit-content;
+    backdrop-filter: blur(10px);
+    background-color: rgb(208, 145, 218,0.2);
+}
+.rentprprty-details h4{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.rentprprty-details form{
+    padding: 10px;
+}
+.rentpost tr td label{
+    color: rgb(24, 23, 23);
+}
+.rentpost tr td input{
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 500px;
+    padding: 5px;
+    border-bottom:2px solid #1d3159;
+}
+.rentprprty-details button{
+    position: relative;
+    left: 45%;
+    background-color:rgba(157, 57, 194);
+    width: 100px;
+    padding: 5px;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+}
+.carparking label{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 460px;
+}
+.carparking input{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 230px;
+}

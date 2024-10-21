@@ -1,0 +1,71 @@
+.navbar-rs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color:#c568c5;
+  backdrop-filter: blur(20px);
+}
+.logo-otherpages>div{
+  display: inline-block; 
+  font-weight: 500;
+}
+.userprofile>div{
+  display: inline-block;
+  margin:20px;
+  padding: 5px;
+  margin-right: 10px;
+}
+#postbutton{
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  color: #ffff;
+  background: #862d86;
+}
+
+.profile-box{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  color: black;
+  background-color: rgb(227, 149, 219);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.p-closeicon{
+  align-self: end;
+}
+.login-sign{
+  margin-right: 90px;
+}
+.p-nav{
+  padding: 10px;
+}
+.p-nav span{
+  display: flex;
+
+}
+.p-nav Link{
+  margin: 0;
+}
+.p-nav span img{
+  padding-bottom: 8px;
+  padding-right: 5px;
+}
+.divlogout{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.logoutbtn{
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  color: #ffff;
+  background: #862d86;
+}

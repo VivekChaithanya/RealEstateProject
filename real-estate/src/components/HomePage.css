@@ -1,0 +1,103 @@
+.search-bg{
+  background-image: url("./src/images/background.jpg");
+  background-position: center;
+  background-size:cover;
+  height: 400px;
+}
+.search-box{
+  border: 1px solid #ffff;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 20px;
+  position:relative;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #d4cfcf;
+}
+.search-box>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box>div>p{
+  border: 1px solid #570857;
+  font-size: large;
+  text-align: center;
+  padding: 5px 40px;
+  margin: 5px 10px;
+  background-color: #dfb0df;
+  border-radius: 10px;
+  display: inline-block;
+  color: #570857;
+}
+#search-sib>input{
+  width: 500px;
+  padding:5px;
+  border: none;
+}
+#search-sib>select{
+  padding: 5px 5px;
+  border: 0;
+}
+#search-sib button{
+  padding: 5px;
+}
+.property-cards>h1{
+  padding: 5px;
+  text-align: center;
+}
+.property-cards>div>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.property-cards-btns>button{
+  width: fit-content;
+  color: #570857;
+  border: 1px solid #570857;
+  padding: 5px 15px 5px;
+  margin: 5px;
+  text-align:center;
+  border-radius: 15px;
+}
+.property-cards-btns>:focus{
+  background-color: #570857;
+  color: #ffff;
+}
+.bpt-3 span{
+  position: relative;
+  bottom: 100%;
+  /* right: 50%; */
+  padding-left: 60px;
+}
+.most-popular div p{
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  color: #ffff;
+  font-weight: 600;
+}
+.by-budget div p{
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  color: #ffff;
+  font-weight: 600;
+}
+.by-pty div span{
+  position: absolute;
+  bottom: 5%;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0);
+  color: #f4f0f0;
+  font-weight: 600;
+}
+.bhk div p{
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  text-shadow: 4px 6px 10px  rgba(0, 0, 0);
+  color: #f4f0f4;
+  font-weight: 600;
+}
